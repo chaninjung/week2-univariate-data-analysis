@@ -1,0 +1,19 @@
+{
+    "project_name": "Week 2 - Assignment: Univariate Data Analysis",
+    "version": "1.0",
+    "author": "Chanin Jung",
+    "target_variable": "cnt",
+    "uci_repo_id": 275,
+    "data_paths": {
+        "raw": "data/raw/uci_bike_sharing_raw.csv",
+        "interim": "data/interim/uci_bike_sharing_interim.csv",
+        "processed": "data/processed/uci_bike_sharing_processed.csv"
+    },
+    "report_paths": {
+        "summary": "reports/summary_table.csv",
+        "plot": "reports/univariate_cnt_plot.png"
+    },
+    "cleaning_params": {
+        "default_weather": 1
+    }
+}
